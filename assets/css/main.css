@@ -291,6 +291,26 @@ input, select, textarea {
 		text-align: right;
 	}
 
+		/* Custom hero layout */
+	.banner .image.fit {
+	width: 100%;
+	height: 50vh; /* half screen */
+	overflow: hidden;
+	}
+
+	.banner .image.fit img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	}
+
+	.banner h1 {
+	font-size: 4rem;
+	letter-spacing: -1px;
+	}
+
+
+/*🔥 Result you'll get */
 	@media screen and (max-width: 736px) {
 
 		p.major {
@@ -348,6 +368,10 @@ input, select, textarea {
 		border-bottom-color: rgba(0, 0, 0, 0.2);
 	}
 
+	.banner h1 {
+  	font-size: 4rem;
+  	letter-spacing: -1px;
+	}
 /* Row */
 
 	.row {
